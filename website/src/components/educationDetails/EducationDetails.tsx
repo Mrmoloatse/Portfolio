@@ -1,14 +1,5 @@
-import {
-  Grid,
-  GridCol,
-  Group,
-  Timeline,
-  Title,
-  Text,
-  Stack,
-} from "@mantine/core";
+import { Group, Timeline, Title, Text, Stack } from "@mantine/core";
 import { IconBook2 } from "@tabler/icons-react";
-import React from "react";
 
 function EducationDetails() {
   return (

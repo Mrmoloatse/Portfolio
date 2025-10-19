@@ -3,11 +3,9 @@ import {
   IconBrandGithub,
   IconBrandLinkedin,
   IconMailFilled,
-  IconPhone,
   IconPhoneFilled,
   IconSocial,
 } from "@tabler/icons-react";
-import React from "react";
 
 function ContactDetails() {
   const themeIconSize = 45;
