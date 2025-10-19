@@ -1,0 +1,20 @@
+.service-card {
+  transition: all 300ms ease-in-out;
+  position: relative;
+  background-color: var(--box-bg-color);
+  border-radius: var(--mantine-spacing-md);
+  padding: var(--mantine-spacing-lg) var(--mantine-spacing-md);
+  border: 1px solid var(--mantine-primary-color-6);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card:hover :first-child {
+  color: var(--mantine-primary-color-6);
+}
+
+.service-card > :first-child {
+  color: var(--mantine-primary-color);
+}

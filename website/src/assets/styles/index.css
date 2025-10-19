@@ -1,0 +1,73 @@
+/*Mantine Breakpoints reference
+        mantine-breakpoint-xs: 576px,
+        mantine-breakpoint-sm: 768px,
+        mantine-breakpoint-md: 992px,
+        mantine-breakpoint-lg: 1200px,
+        mantine-breakpoint-xl: 1408px,
+  */
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --box-bg-color: var(--mantine-primary-color-0);
+}
+
+[data-mantine-color-scheme="dark"] {
+  --box-bg-color: color-mix(
+    in oklab,
+    var(--mantine-color-dark-9) 65%,
+    var(--mantine-primary-color-3) 15%
+  );
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--mantine-color-gray-0);
+  --body-padding-inline: var(--mantine-spacing-lg);
+  overflow-x: hidden;
+}
+
+main {
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+  padding-inline: 70px;
+  display: flex;
+  align-items: center;
+}
+
+main > * {
+  max-width: min(1124px, 95vw);
+}
+
+[data-mantine-color-scheme="dark"] body {
+  background-color: var(--mantine-color-dark-8);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  padding: var(--mantine-spacing-lg);
+  border: var(--mantine-primary-color-6);
+  background-color: var(--box-bg-color);
+  border-radius: var(--mantine-radius-md);
+}
