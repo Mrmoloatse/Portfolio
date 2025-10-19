@@ -199,7 +199,7 @@ function DefaultLayout() {
           </Text>
           <Stack gap={0} mt={36}>
             <Text fz={"h4"}>Phone Number</Text>
-            <Text c={"dimmed"}>(+27) 660030244</Text>
+            <Text c={"dimmed"}>(+27) 66 003 0244</Text>
           </Stack>
           <Stack gap={0}>
             <Text fz={"h4"}>Email</Text>

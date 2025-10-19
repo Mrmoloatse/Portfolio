@@ -30,7 +30,7 @@ function ContactDetails() {
           <Text c={"dimmed"} fz={"sm"}>
             Email
           </Text>
-          <Text>089588594940</Text>
+          <Text>(+27) 66 003 0244</Text>
         </Stack>
       </Group>
       <Group>
