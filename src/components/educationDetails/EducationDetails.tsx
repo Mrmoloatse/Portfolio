@@ -27,10 +27,7 @@ function EducationDetails() {
             <Text>2024-2024 :</Text>
             <Stack gap={0}>
               <Text c={"var(--mantine-primary-color-6)"}>Udemy</Text>
-              <Text>
-                {" "}
-                The complete Javascript Course 2024: from zero to expert
-              </Text>
+              <Text>Javascript complete Course 2024: from zero to expert</Text>
             </Stack>
           </Group>
         </Timeline.Item>
